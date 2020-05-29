@@ -18,7 +18,7 @@ color: black;
 display:flex;
 flex-direction: column;
 background-color: white;
-align-content: space-between;
+flex-flow: column-nowrap;
 }
 
 .header {
@@ -83,11 +83,6 @@ transition: all 0.3s ease;
 
 .button2:hover{
 background-color: white;
-}
-
-.image4 {
-width: 650px;
-position: relative;
 }
 
 /* Content Section */
@@ -223,7 +218,14 @@ grid-template-columns: 0.6fr 1fr;
 background-color: white;
 }
 
-/* Fifth Content*/
+.image4 {
+width: 650px;
+position: relative;
+grid-column-start: 2;
+
+}
+
+/* Fifth Content */
 
 .item5 {
 display: grid;
