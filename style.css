@@ -25,42 +25,11 @@ align-content: space-between;
 margin-bottom: 20px;
 }
 
-.item1 {
-display: grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr 1fr
-}
-
-.item2 {
-grid-area: content2;
-background-color: white;
-}
-
-.item3 {
-grid-area: content3;
-}
-
-.item4 {
-grid-area: content4;
-}
-
-.item5 {
-grid-area: content5;
-background-color: white;
-}
-
-.item6 {
-grid-area: content5;
-background-color: white;
-}
-
-
-
 /* header section */
 
 .logo {
 position: relative;
-float: left;22:17 28/05/2020
+float: left;
 top: 25px;
 left: 50px;
 width: 200px;
@@ -116,21 +85,6 @@ transition: all 0.3s ease;
 background-color: white;
 }
 
-.image1 {
-width: 650px;
-position: relative;
-}
-
-.image2 {
-width: 650px;
-position: relative;
-}
-
-.image3 {
-width: 650px;
-position: relative;
-}
-
 .image4 {
 width: 650px;
 position: relative;
@@ -142,7 +96,6 @@ position: relative;
 display:flex;
 flex-direction: column;
 background-color: white;
-align-content: space-between;
 }
 
 .header {
@@ -174,7 +127,8 @@ left: 40px;
 .image1 {
 width: 650px;
 position: relative;
-left: 120px;
+justify-self: end;
+right: 100px;
 grid-column-start: 2;
 }
 
@@ -209,22 +163,80 @@ grid-template-columns: 0.6fr 1fr;
 background-color: white;
 }
 
+h2 {
+position: relative;
+left: 40px;
+}
 
+.txt2 {
+font-family: 'Open Sans', sans-serif;
+color: gray;
+grid-column-start: 1;
+position: relative;
+top: 250px;
+left: 40px;
+}
+
+.image2 {
+width: 650px;
+justify-self: end;
+position: relative;
+right: 100px;
+grid-column-start: 2;
+}
+
+/* Third Content */
 
 .item3 {
-grid-area: content3;
-}
-
-.item4 {
-grid-area: content4;
-}
-
-.item5 {
-grid-area: content5;
+display: grid;
+grid-template-rows: 50px;
+grid-template-columns: 0.6fr 1fr;
 background-color: white;
 }
 
+h3 {
+position: relative;
+grid-column-start: 2;
+}
+
+.txt3 {
+font-family: 'Open Sans', sans-serif;
+color: gray;
+grid-column-start: 2;
+position: relative;
+top: 250px;
+left: 40px;
+}
+
+.image3 {
+width: 650px;
+position: relative;
+grid-column-start: 1;
+}
+
+/* Fourth Content */
+
+.item4 {
+display: grid;
+grid-template-rows: 50px;
+grid-template-columns: 0.6fr 1fr;
+background-color: white;
+}
+
+/* Fifth Content*/
+
+.item5 {
+display: grid;
+grid-template-rows: 50px;
+grid-template-columns: 0.6fr 1fr;
+background-color: white;
+}
+
+/* Footer */
+
 .item6 {
-grid-area: content5;
+display: grid;
+grid-template-rows: 50px;
+grid-template-columns: 0.6fr 1fr;
 background-color: white;
 }
