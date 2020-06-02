@@ -4,7 +4,6 @@
 body {
 font-family: 'Open Sans', sans-serif;
 background-image: url(./images/bg-hero-mobile.svg);
-
 background-size: cover;
 margin: 0px;
 }
@@ -15,14 +14,13 @@ color: black;
 }
 
 .container {
-width: 100%;
 display:flex;
 flex-direction: column;
-background-color: white;
 }
 
 .bg-white {
 width: 100%;
+min-width: 500px;
 background-color: white;
 padding-top: 40px;
 margin-top: 40px;
@@ -285,7 +283,7 @@ background-color: white;
 /* Footer */
 
 .item6 {
-width: 95.5%;
+width: 100%;
 height: 300px;
 display: grid;
 justify-content: center;
@@ -306,6 +304,14 @@ grid-column-start: 4;
 text-decoration: none;
 color: white;
 font-size: 14px;
+}
+
+.copyright {
+grid-column-start: 4;
+text-decoration: none;
+color: white;
+font-size: 14px;
+white-space: nowrap;
 }
 
 .logo2 {
@@ -367,10 +373,10 @@ border: 2px solid violet;
 /* media quebra da linha */
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1440px){
 
 .bg-white {
-width: 1400px;
+width: 100%;
 }
 
 h1{
@@ -444,16 +450,16 @@ margin: 100px 0px 0px 40px;
 }
 
 .item2 {
-width: 700px;
+width:800px;
 }
 
 .item3 {
-width: 700px;
+width: 800px;
 height: 340px;
 }
 
 .item4 {
-width: 700px;
+width: 800px;
 height: 340px;
 }
 
@@ -468,7 +474,7 @@ font-size: 18px;
 }
 
 .item6{
-width: 91.8%;
+width: 92.55%;
 }
 
 .social img {
@@ -560,24 +566,19 @@ margin-left: -60px;
 }
 
 .social img {
-width: 20px;
+width: 30px;
 }
 
 .item6 {
+width: 87.55%;
 }
 
 }
 
 @media screen and (max-width: 600px){
 
-.bg-white
-
-.container {
-width: 415px;
-}
-
 .bg-white {
-margin: auto;
+width: 485px;
 }
 
 .logo {
@@ -600,18 +601,42 @@ font-size: 14px;
 }
 
 .item1 {
+width: 385px;
+height: 600px;
 display: flex;
 flex-direction: column;
 margin: auto;
 }
 
 .image1 {
+position: relative;
+left: 20px;
+bottom: 250px;
+margin: auto;
 width: 300px;
-
 }
 
-.h1 {
-justify-self: center;
+h1 {
+position: relative;
+top: 300px;
+left: 0px;
+margin: auto;
+padding: auto;
+}
+
+.txt1 {
+text-align: center;
+position: relative;
+top: 250px;
+left: 0px;
+padding: auto;
+margin: auto;
+}
+
+.button2 {
+margin: auto;
+position: relative;
+left: 0px;
 }
 
 .item2 {
@@ -713,6 +738,7 @@ margin: 30px 0px 20px 0px;
 display: flex;
 flex-direction: column;
 height: 100%;
+width: 75%;
 }
 
 .social img {
@@ -724,9 +750,14 @@ margin: 0px 5px 0px 5px;
 width: 150px;
 }
 
-.bg-white {
-width: 420px;
-justify-self: center;
+.c2 {
+position: relative;
+right: 200px;
+}
+
+.c3 {
+position: relative;
+bottom: 150px;
 }
 
 }
