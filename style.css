@@ -8,7 +8,7 @@ background-size: cover;
 margin: 0px;
 }
 
-.no-decoration{ 
+.no-decoration{
 text-decoration: none;
 color: black;
 }
@@ -20,7 +20,6 @@ flex-direction: column;
 
 .bg-white {
 width: 100%;
-min-width: 500px;
 background-color: white;
 padding-top: 40px;
 margin-top: 40px;
@@ -40,7 +39,7 @@ width: 200px;
 position: relative;
 float: right;
 top: 20px;
-right: 70px;	
+right: 70px;
 width: 190px;
 height: 50px;
 background-color: white;
@@ -73,7 +72,7 @@ white-space: nowrap;
 position: relative;
 top: 200px;
 left: 50px;
-font-family: Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 Font-weight: 700;
 font-size: 30px;
 }
@@ -88,7 +87,7 @@ left: 50px;
 }
 
 .image1 {
-width: 70%;
+width: 60%;
 position: relative;
 justify-self: end;
 right: 60px;
@@ -101,7 +100,7 @@ position: relative;
 left: 50px;
 top: 230px;
 width: 290px;
-height: 50px;	
+height: 50px;
 background-color: hsl(322, 100%, 66%);
 background-position: center;
 border-radius: 30px 30px;
@@ -135,7 +134,7 @@ align-items: center;
 
 h2 {
 white-space: nowrap;
-font-family: Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 Font-weight: 700;
 font-size: 30px;
 margin: 325px 0px 40px 100px;
@@ -176,7 +175,7 @@ h3 {
 white-space: nowrap;
 grid-column-start: 2;
 grid-row-start: 1;
-font-family: Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 Font-weight: 700;
 font-size: 30px;
 margin: 170px auto 120px 40px;
@@ -215,7 +214,7 @@ border: none;
 
 h4 {
 white-space: nowrap;
-font-family: Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 Font-weight: 700;
 font-size: 30px;
 margin: 140px 0px 115px 100px;
@@ -256,7 +255,7 @@ border: none;
 }
 
 h5 {
-font-family: Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 Font-weight: 700;
 font-size: 24px;
 }
@@ -264,7 +263,7 @@ font-size: 24px;
 .button3 {
 align-self: center;
 width: 200px;
-height: 50px;	
+height: 50px;
 background-color: hsl(322, 100%, 66%);
 background-position: center;
 border-radius: 30px 30px;
@@ -284,15 +283,15 @@ background-color: white;
 
 .item6 {
 width: 100%;
-height: 300px;
+height: 500px;
 display: grid;
 justify-content: center;
 align-items: center;
 grid-template-rows: 200px;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 background-color: hsl(192, 100%, 9%);
-padding-top: 200px;
-padding-left: 100px;
+
+;
 }
 
 .white-text {
@@ -312,6 +311,8 @@ text-decoration: none;
 color: white;
 font-size: 14px;
 white-space: nowrap;
+position: relative;
+top: 100px;
 }
 
 .logo2 {
@@ -321,19 +322,25 @@ margin-bottom: 10px;
 
 .c1 {
 grid-column-start: 1;
-margin-bottom: 40px;
+position: relative;
+top: 150px;
+left: 50px;
 }
 
 .c2 {
 grid-column-start: 2;
 justify-self: center;
 line-height: 200%;
+position: relative;
+top: 150px;
 }
 
 .c3 {
 grid-column-start: 3;
 justify-self: center;
 line-height: 200%;
+position: relative;
+top: 150px;
 }
 
 .none {
@@ -356,6 +363,8 @@ list-style-image:url("./images/icon-email.svg")
 grid-column-start: 4;
 position: relative;
 justify-self: center;
+position: relative;
+top: 150px;
 }
 
 .social img{
@@ -473,12 +482,12 @@ margin-top: 40px;
 font-size: 18px;
 }
 
-.item6{
-width: 92.55%;
-}
-
 .social img {
 width: 30px;
+}
+
+.c1 {
+  margin-right: 20px;
 }
 
 }
@@ -491,6 +500,7 @@ margin: 0px;
 }
 
 .image1 {
+  margin-left: 100px;
 width: 350px;
 }
 
@@ -498,8 +508,16 @@ p{
 font-size: 12px;
 }
 
+h1 {
+margin-top: -40px;
+}
+
 .txt1 {
-margin-top: 0px;
+margin-top: -40px;
+}
+
+.button2 {
+position:relative;
 }
 
 .item2 {
@@ -561,34 +579,49 @@ h5 {
 margin-top: 40px;
 }
 
-.c1 {
-margin-left: -60px;
+.logo2 {
+  position: relative;
+  right: 15px;
+}
+
+.c2{
+  position: relative;
+  left: 40px;
+  margin-right: 20px;
+}
+
+.c3{
+  position: relative;
+  left: 40px;
 }
 
 .social img {
 width: 30px;
 }
 
-.item6 {
-width: 87.55%;
-}
-
 }
 
 @media screen and (max-width: 600px){
 
+  .container {
+    width: 70%;
+  }
+
 .bg-white {
-width: 485px;
+width: 585.5px;
+margin: 0px;
+padding: 20px;
 }
 
 .logo {
+  top: 50px;
 width: 150px;
 }
 
 .button {
 width: 120px;
 height: 40px;
-right: 10px;
+left: 350px;
 }
 
 h1,h2,h3,h4,h5{
@@ -601,16 +634,17 @@ font-size: 14px;
 }
 
 .item1 {
-width: 385px;
+width: 385.5px;
 height: 600px;
 display: flex;
+justify-content: center;
 flex-direction: column;
 margin: auto;
 }
 
 .image1 {
 position: relative;
-left: 20px;
+left: 120px;
 bottom: 250px;
 margin: auto;
 width: 300px;
@@ -618,8 +652,8 @@ width: 300px;
 
 h1 {
 position: relative;
-top: 300px;
-left: 0px;
+top: 310px;
+left: 120px;
 margin: auto;
 padding: auto;
 }
@@ -627,8 +661,8 @@ padding: auto;
 .txt1 {
 text-align: center;
 position: relative;
-top: 250px;
-left: 0px;
+top: 260px;
+left: 120px;
 padding: auto;
 margin: auto;
 }
@@ -636,7 +670,7 @@ margin: auto;
 .button2 {
 margin: auto;
 position: relative;
-left: 0px;
+left: 120px;
 }
 
 .item2 {
@@ -735,10 +769,10 @@ margin: 30px 0px 20px 0px;
 }
 
 .item6 {
+  width: 100%;
+  padding: 100%;
 display: flex;
 flex-direction: column;
-height: 100%;
-width: 75%;
 }
 
 .social img {
@@ -747,17 +781,57 @@ margin: 0px 5px 0px 5px;
 }
 
 .logo2 {
-width: 150px;
+ width: 150px;
+ top: -40px;
+ right: 60px;
+}
+
+.location{
+  position: relative;
+  top: -30px;
+  left: -40px;
+}
+
+.phone {
+ position: relative;
+ top: -30px;
+ right: 40px;
+}
+
+.email {
+  position: relative;
+  right: 40px;
+  top: -30px;
+}
+
+.c1 {
+  font-size: 20px;
+  margin: 0px;
+  top: 60px;
+  width: 250%;
 }
 
 .c2 {
 position: relative;
-right: 200px;
+margin: 0px;
+top: 80px;
+left: -40px;
+
 }
 
 .c3 {
 position: relative;
-bottom: 150px;
+top: -70px;
+left: 80px;
+
+}
+
+.social {
+  top: 20px;
+}
+
+.copyright {
+  top: 40px;
 }
 
 }
